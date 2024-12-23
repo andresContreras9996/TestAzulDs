@@ -3,6 +3,10 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { setConfig } from '@the-ksquare-group/azul-ds';
+import theme from './theme.json'
+
+setConfig(theme)
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

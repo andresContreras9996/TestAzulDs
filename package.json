@@ -1,11 +1,14 @@
 {
-  "name": "test",
+  "name": "testlibrary",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@mui/material": "5.16.8",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "@the-ksquare-group/azul-ds": "^0.8.2",
+    "link": "^2.1.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-scripts": "5.0.1",
@@ -15,7 +18,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "link-local-lib": "yarn link @the-ksquare-group/azul-ds && yarn link react && yarn link react-dom && yarn add link @the-ksquare-group/azul-ds",
+    "unlink-local-lib": "yarn remove @the-ksquare-group/azul-ds && yarn unlink @the-ksquare-group/azul-ds && yarn unlink react && yarn unlink react-dom"
   },
   "eslintConfig": {
     "extends": [

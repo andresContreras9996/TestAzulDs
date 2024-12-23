@@ -1,0 +1,34 @@
+{
+    "button": {
+        "variants": {
+            "primary": {
+                "backgroundColor": "purple",
+                "color":"black"
+
+            }
+        }
+    },
+    "checkbox": {
+        "baseColor": "blue",
+        "hoverColor": "purple",
+        "focus": {
+            "outline": "1px solid yellow",
+            "color": "green"
+        },
+        "checkedColor": "wheat",
+        "disabledColor": "cyan",
+        "pressedColor": "black",
+        "indeterminateColor": "yellow",
+        "labelColor":"black"
+    },
+    "stepper":{
+        "connectorGradColor":"linear-gradient( 136deg, rgb(242,113,33) 0%, rgb(233,64,87) 50%, rgb(138,35,135) 100%)",
+        "connectorBackgroundColor":"yellow",
+
+        "activeIconColor":"green",
+        "defaultIconColor":"cyan",
+
+        "labelActiveColor":"red",
+        "labelDefaultColor":"purple"
+    }
+}
